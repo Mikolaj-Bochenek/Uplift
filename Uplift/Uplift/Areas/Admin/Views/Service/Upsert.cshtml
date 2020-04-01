@@ -102,7 +102,7 @@
         @if (Model.Service.Id != 0)
         {
             <div class="col-3">
-                <img src="@Model.Service.ImageUrl" width="100%" style="border-radius: 5px; border: 1px solid #bbb9b9"/>
+                <img src="@Model.Service.ImageUrl" style="border-radius: 5px; border: 1px solid #bbb9b9; width: 100%"/>
             </div>
         }
     </div>
@@ -126,7 +126,7 @@
             return true;
         };
 
-        $(document).ready(function ()) {
+        $(document).ready(function () {
             if (document.getElementById('txtPrice').value == "0") {
                 document.getElementById('txtPrice').value = '';
             }

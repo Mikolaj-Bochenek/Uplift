@@ -48,7 +48,7 @@ namespace Uplift.DataAccess.Data.Repository
             return query.ToList();
         }
 
-        public T GetFirstOrdDefualt(Expression<Func<T, bool>> filter = null, string includeProperties = null)
+        public T GetFirstOrDefualt(Expression<Func<T, bool>> filter = null, string includeProperties = null)
         {
             IQueryable<T> query = dbSet;
             if (filter != null)

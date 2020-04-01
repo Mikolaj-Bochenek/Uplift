@@ -15,7 +15,7 @@ namespace Uplift.DataAccess.Data.Repository.IRepository
             Func<IQueryable<T>, IOrderedQueryable<T>> orderBy = null,
             string includeProperties = null);
 
-        T GetFirstOrdDefualt(Expression<Func<T, bool>> filter = null, string includeProperties = null);
+        T GetFirstOrDefualt(Expression<Func<T, bool>> filter = null, string includeProperties = null);
 
         void Add(T entity);
 
