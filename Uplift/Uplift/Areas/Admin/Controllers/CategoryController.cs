@@ -10,6 +10,7 @@ using Uplift.Utility;
 
 namespace Uplift.Areas.Admin.Controllers
 {
+    [Authorize]
     [Area("Admin")]
     public class CategoryController : Controller
     {

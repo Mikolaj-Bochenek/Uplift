@@ -9,6 +9,7 @@ using Uplift.Models;
 
 namespace Uplift.Areas.Admin.Controllers
 {
+    [Authorize]
     [Area("Admin")]
     public class FrequencyController : Controller
     {
